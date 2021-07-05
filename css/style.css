@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------home section-----------*/
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.home{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width:first-child{
+    margin-top: 12%;
+}
+.half-width h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 87px;
+    color: #575757;
+}
+.home:first-child{
+    padding-left: 9%;
+}
+.half-width h1 span{
+    color: #FB934A;
+    padding-right: 14px;
+}
+ p{
+    width: 460px;
+    padding-top: 40px;
+    font-weight: 400;
+    color: #828282;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+.half-width a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(#FC984C,#FE492E);
+    padding: 16px 37px;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 25px;
+}
+.half-width a:hover{
+    color: rgba(137, 43, 226, 0.774);
+    box-shadow: 0px 0px 15px rgb(137, 43, 226);
+}
+/*---------------About section--------------*/
+.about{
+    display: flex;
+    background: url(image/Frame\ 59.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about img{
+width: 50%;
+margin-left: 20%;
+margin-top: -99px;
+}
+h2{
+    margin-top: 150px;
+    font-size: 50px;
+    color: #707070;
+}
+.about p{
+    padding-bottom: 100px;
+}
+/*------------food-reciepie-----------*/
+.menu-slice img{
+    width: 250px;
+    height: auto;
+}
+.recipies{
+    text-align: center;
+    color: black;
+}
+.food-menu{
+    display: flex;
+    margin-top: 50px;
+}
+.clear-fix h2{
+      margin-top: 100px;
+      font-size: 40px;
+}
+.clear-fix p{
+    margin-left: 33%;
+    color: #000;
+}
+.menu-slice{
+    text-align: left;
+    width: 254px;
+    margin-left: 120px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 25px rgb(68, 68, 68);
+    border-radius: 20px;
+}
+.menu-slice h3{
+    margin-top: 30px;
+    font-weight: 900;
+}
+.menu-slice p{
+    width: 100%;
+    padding-top: 20px;
+}
+.beef{
+    margin-left: 9%;
+}
+.vagitable img{
+  width: 245px;
+  height: 192px;
+  border-radius: 15px;
+  margin-left: 6px;
+}
+.egg img{
+   margin-left: 2px;
+}
+.clear-fix span{
+    color: #FB934A;
+    font-weight: 800;
+}
+.clear-fix hr{
+    margin-top: 39px;
+    width: 20px;
+    padding: 2px;
+    background: #c7c7c7;
+    border: none;
+    margin-left: 49%;
+    border-radius: 27%;
+}
+/*---------social revew---------------*/
+.social-revew{
+    text-align: center;
+    color: #000;
+}
+.revew-box{
+    margin-top: 200px;
+    display: flex;
+    margin-bottom: 200px;
+    box-shadow: 0px 0px 25px rgb(221, 202, 202);
+    width: 900px;
+    margin-left:  84px;
+    padding: 70px 150px;
+    border-radius: 20px;
+}
+.subscriber{
+    padding-left: 3%;
+    width: 30%;
+}
+.subscriber p{
+    width: 100%;
+}
+.subscriber h4{
+    font-size: 37px;
+    padding-bottom: 14px;
+}
+.subscriber span{
+    font-weight: 800;
+}
+/*---------footer section---------*/
+.footer{
+    text-align: center;
+    background-color: black;
+}
+.footer h5{
+    font-size: 40px;
+    font-weight: 800;
+    color: #5B5B5B;
+    padding-top: 61px;
+}
+.footer h5 span{
+    color:#FB934A; 
+}
+.footer p{
+    color: #fff;
+    margin-left: 7px;
+    width: 100%;
+}
+/*-----------------------------------------------*/
+/*-------------------END------------------------*/
+/*---------------------------------------------*/
